@@ -57,7 +57,7 @@ _else you can try_
 ```
 node index.js
 ```
-If there is no error, congratulations now you have a working __BACKEND__ [try it](localhost:3000)
+If there is no error, congratulations now you have a working __BACKEND__ [try it](http://localhost:3000)
 
 
 
