@@ -33,7 +33,7 @@ app.use("/",route);
 
 /// DATABASE
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://'+process.env.mongodb+'/test?retryWrites=true', {
+mongoose.connect(process.env.mongodb, {
 	'ssl': true,
 	'replicaSet': 'Cluster0-shard-0',
 	'authSource': 'admin'
