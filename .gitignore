@@ -25,4 +25,5 @@ expressInitFront/temp/
 expressInitFront/hooks/
 expressInitFront/www/
 expressInitFront/$RECYCLE.BIN/
+expressInitFront/package-lock.json
 
