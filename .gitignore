@@ -1,4 +1,5 @@
 .env
+*/node_modules/
 
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
@@ -9,9 +10,6 @@ expressInitFront/*.log
 expressInitFront/*.tmp
 expressInitFront/*.tmp.*
 expressInitFront/log.txt
-expressInitFront/*.sublime-project
-expressInitFront/*.sublime-workspace
-expressInitFront/.vscode/
 expressInitFront/npm-debug.log*
 
 expressInitFront/.idea/
@@ -21,17 +19,9 @@ expressInitFront/.tmp/
 expressInitFront/.versions/
 expressInitFront/coverage/
 expressInitFront/dist/
-expressInitFront/node_modules/
 expressInitFront/tmp/
 expressInitFront/temp/
 expressInitFront/hooks/
-expressInitFront/platforms/
-expressInitFront/plugins/
-expressInitFront/plugins/android.json
-expressInitFront/plugins/ios.json
 expressInitFront/www/
 expressInitFront/$RECYCLE.BIN/
 
-expressInitFront/.DS_Store
-expressInitFront/Thumbs.db
-expressInitFront/UserInterfaceState.xcuserstate
