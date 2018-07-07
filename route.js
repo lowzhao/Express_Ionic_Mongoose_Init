@@ -11,9 +11,9 @@ module.exports = router
 .use('/standard',require('./route/standard'))
 
 /// frontend
-.use(express.static(__dirname + '/www'))
+.use(express.static(__dirname + '/expressInitFront/www'))
 .get('*', (req, res, next)=>{
-	res.sendFile(path.join(__dirname,'/www/index.html'));
+	res.sendFile(path.join(__dirname,'/expressInitFront/www/index.html'));
 }) 
 
 ; 
