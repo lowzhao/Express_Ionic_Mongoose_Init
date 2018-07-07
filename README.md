@@ -1,7 +1,7 @@
 # Express Ionic Mongoose Initialization File
 
 ### Requirements 
-1. [git](https://git-scm.com/) Most Popular Version Control System
+1. [Git](https://git-scm.com/) Most Popular Version Control System
 2. [NodeJS](https://nodejs.org/en/) JavaScript Runtime
 3. Ionic, after installing NodeJS install ionic with `npm i ionic -g`
 4. Nodemon, which will automatically rerun the server after saving. Install with `npm i nodemon -g`
@@ -44,7 +44,7 @@ PORT=3000
 mongodb=mongodb+srv://_USERNAME_:_PASSWORD_@cluster0-2bdyn.mongodb.net/test?retryWrites=true
 ```
 Remember to enter your __USERNAME__ & __PASSSWORD__
-You can also change your port if you face error but use localhost:PORT to access the site after setting up.
+You can also change your port if you face error, but use localhost:NEWPORT to access the site after setting up.
 
 ### Try Nodemon / Node index.js
 _if nodemon is installed_
