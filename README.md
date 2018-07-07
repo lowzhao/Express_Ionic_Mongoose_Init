@@ -21,6 +21,46 @@ Either use [github desktop](https://desktop.github.com/) or git command to clone
 ```
 git clone https://github.com/lowzhao/Express_Ionic_Mongoose_Init.git
 ```
+_type these in a terminal(MacOS/Linux) or CMD(Windows)_
+
+### Installing Node Modules
+```
+cd Express_Ionic_Mongoose_Init
+npm i
+cd expressInitFront
+npm i
+```
+
+### Try Ionic serve
+```
+ionic serve
+```
+If it works, Congratulations you now have a working front end
+
+### Setting up database MongoDB and http port
+create a `.env` file in the current directory(/Express_Ionic_Mongoose_Init)
+inside add 
+```
+PORT=3000
+mongodb=mongodb+srv://_USERNAME_:_PASSWORD_@cluster0-2bdyn.mongodb.net/test?retryWrites=true
+```
+Remember to enter your __USERNAME__ & __PASSSWORD__
+You can also change your port if you face error but use localhost:PORT to access the site after setting up.
+
+### Try Nodemon / Node index.js
+_if nodemon is installed_
+```
+nodemon
+```
+_else you can try_
+```
+node index.js
+```
+If there is no error, Congratulations now you have a working backend [try it](localhost:3000)
+
+
+
+
 
 
 
