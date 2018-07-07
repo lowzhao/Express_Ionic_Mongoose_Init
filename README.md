@@ -1,7 +1,5 @@
 # Express Ionic Mongoose Initialization File
 
-## git clone 
-
 ### Requirements 
 1. [git](https://git-scm.com/) Most Popular Version Control System
 2. [NodeJS](https://nodejs.org/en/) JavaScript Runtime
