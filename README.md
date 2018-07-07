@@ -39,7 +39,8 @@ If it works, congratulations you now have a working  __FRONTEND__
 
 ### Setting up database MongoDB and http port
 create a `.env` file in the current directory(/Express_Ionic_Mongoose_Init)
-inside add 
+
+Add these lines: 
 ```
 PORT=3000
 mongodb=mongodb+srv://_USERNAME_:_PASSWORD_@cluster0-2bdyn.mongodb.net/test?retryWrites=true
